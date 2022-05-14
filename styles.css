@@ -9,7 +9,7 @@ header{
     
 }
 main{
-    height:600px;
+    height:10500px;
     margin: 1rem auto;
     width: 80%;
 }
@@ -18,11 +18,9 @@ main section {
     padding: 2rem;
 }
 footer{
-    height: 75px;
-    background-color: transparent;
-    position: relative;
-    padding: 1rem;
-    
+    background-color: green;
+    bottom: 0;
+    height: 1000;
 }
 
 nav{
@@ -49,22 +47,9 @@ body > header > div:nth-child(3) > img {
     width: 20px;
     margin-left: 180px;
 }
-
 nav hr{
     color: black;
 
-}
-
-
-nav a {
-    color: red;
-    font-size: 30px;
-    text-decoration: none;
-<<<<<<< HEAD
-    margin-left: 400px;
-=======
-    text-align: center;
->>>>>>> 4e2b5de84ff622df98624a276061e57ea944ad6b
 }
 nav ul {
     list-style-type: none;
@@ -96,8 +81,7 @@ body > header > div:nth-child(3) > img {
 }
 body > header > div:nth-child(2) {
     margin-left: 875px;
-    margin-top: -45px;
-    
+    margin-top: -45px;    
     
 }
 body > header > div:nth-child(5) {
@@ -118,4 +102,21 @@ body > main > section.contact > div:nth-child(4) {
     border-color: black;
     border-radius: 5px;
     height: 100px;
+}
+body > footer > p:nth-child(9) {
+    margin-left: 1450px;
+}
+body > footer > p:nth-child(8) {
+    margin-left: 1150px;
+    margin-bottom: -30px;
+}
+body > footer > p:nth-child(4) {
+    margin-left: 800px;
+    
+}
+body > header > nav > a{
+    color: red;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 400px;
 }
